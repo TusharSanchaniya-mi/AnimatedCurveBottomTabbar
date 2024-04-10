@@ -34,10 +34,63 @@ You can install AnimatedBottomTabbar via CocoaPods by adding the following line 
 pod 'AnimatedBottomTab'
 ```
 
+## Example
+
+```swift
+struct ContainerView: View {
+
+    @State var deafultTab: TabItem = TabItem(id: 0, tabIcon: "icHome")
+    
+    @State var arrBottomTabs: [TabItem] = [
+        TabItem(id: 0, tabIcon: "icHomeSelected"),
+        TabItem(id: 1, tabIcon: "icFavorite"),
+        TabItem(id: 2, tabIcon: "ic_Email"),
+        TabItem(id: 3, tabIcon: "icUser"),
+    ]
+    
+    var body: some View {
+        ZStack {
+            AnimatedBottomTabbar(selectedTab: $deafultTab, items: $arrBottomTabs, tabbarCurvePosition: .top, selectedViewCompletion: {
+                switch selectedTab.id {
+                case 0:
+                    HomeTab()
+                case 1:
+                    FavoriteTab()
+                case 2:
+                    MessageTab()
+                case 3:
+                    UserTab()
+                default:
+                    Text("Default")
+                }
+            })
+        }
+    }
+}
+
+```
+
+
 ## 🙋 Author
 
 ## [MindInventory](https://www.mindinventory.com/)
 
+## 📱 Check out other lists of our Mobile UI libraries
+
+<a href="https://github.com/Mindinventory?language=kotlin"> 
+<img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white"> </a>
+
+<a href="https://github.com/Mindinventory?language=swift"> 
+<img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white"> </a>
+
+<a href="https://github.com/Mindinventory?language=dart"> 
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"> </a>
+
+
+<a href="https://github.com/Mindinventory/react-native-tabbar-interaction"> 
+<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> </a>
+
+<br></br>
 
 ## 💻 Check out other lists of Web libraries
 
