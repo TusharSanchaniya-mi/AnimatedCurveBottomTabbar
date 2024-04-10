@@ -1,0 +1,16 @@
+PODS:
+  - AnimatedBottomTab (1.0.0)
+
+DEPENDENCIES:
+  - AnimatedBottomTab (from `../`)
+
+EXTERNAL SOURCES:
+  AnimatedBottomTab:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimatedBottomTab: f4a4160295d9c7b574ea8970e85601004608d326
+
+PODFILE CHECKSUM: 1c0aed5508061172b142b4bad707728b00b2969a
+
+COCOAPODS: 1.12.1

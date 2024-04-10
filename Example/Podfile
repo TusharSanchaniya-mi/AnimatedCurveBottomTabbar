@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '15.0'
+
+target 'AnimatedBottomTab_Example' do
+  pod 'AnimatedBottomTab', :path => '../'
+
+  target 'AnimatedBottomTab_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

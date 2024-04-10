@@ -1,0 +1,6 @@
+framework module Pods_AnimatedBottomTab_Tests {
+  umbrella header "Pods-AnimatedBottomTab_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
