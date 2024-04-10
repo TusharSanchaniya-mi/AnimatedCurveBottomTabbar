@@ -36,7 +36,7 @@ pod 'AnimatedBottomTab'
 
 ## 🙋 Author
 
-## MindInventory
+## [MindInventory](https://www.mindinventory.com/)
 
 
 ## 💻 Check out other lists of Web libraries
@@ -60,7 +60,7 @@ pod 'AnimatedBottomTab'
 <br></br>
 
 ## 📄 License
-iOS-MiStepBar is [MIT-licensed](/LICENSE).
+AnimatedBottomTab is [MIT-licensed](/LICENSE).
 
 
 If you use our open-source libraries in your project, please make sure to credit us and Give a star to www.mindinventory.com
