@@ -1,10 +1,3 @@
-//
-//  View+Extension.swift
-//  AnimatedBottomTabbar
-//
-//  Created by Mindinventory on 09/04/24.
-//
-
 import Foundation
 import SwiftUI
 

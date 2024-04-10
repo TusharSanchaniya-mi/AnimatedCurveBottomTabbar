@@ -1,10 +1,3 @@
-//
-//  TabbarItem.swift
-//  AnimatedBottomTabbar
-//
-//  Created by Mindinventory on 08/04/24.
-//
-
 import SwiftUI
 
 struct TabbarItem: View {
@@ -67,6 +60,4 @@ struct TabbarItem: View {
     }
 }
 
-#Preview {
-    ContentView()
-}
+

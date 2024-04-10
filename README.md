@@ -23,7 +23,7 @@ pod 'AnimatedBottomTabbar', :git => 'https://github.com/TusharSanchaniya-mi/Anim
 ``
 
 ## Requirements 🧐
-- iOS 13.0+
+- iOS 15.0+
 - Swift 5.3+
 
 ## Installation

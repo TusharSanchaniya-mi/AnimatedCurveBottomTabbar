@@ -1,10 +1,3 @@
-//
-//  TopTabCurve.swift
-//  AnimatedBottomTabbar
-//
-//  Created by Mindinventory on 09/04/24.
-//
-
 import SwiftUI
 
 struct TopTabCurve: Shape {
@@ -42,6 +35,4 @@ struct TopTabCurve: Shape {
 }
 
 
-#Preview {
-    ContentView()
-}
+

@@ -1,10 +1,3 @@
-//
-//  AnimatedBottomTabbar.swift
-//  AnimatedBottomTabbar
-//
-//  Created by Mindinventory on 08/04/24.
-//
-
 import SwiftUI
 
 struct AnimatedBottomTabbar<Content: View>: View {
@@ -74,11 +67,15 @@ struct AnimatedBottomTabbar<Content: View>: View {
     
     var body: some View {
         VStack {
-            ScrollView {
+            ScrollView(showsIndicators: false) {
                 selectedTabView
             }
-            .scrollIndicators(.hidden)
-            .scrollBounceBehavior(.basedOnSize)
+            .onAppear {
+                UIScrollView.appearance().bounces = false
+            }
+            .onDisappear {
+                UIScrollView.appearance().bounces = true
+            }
             HStack(spacing: 0) {
                 ForEach($items, id: \.id) { item in
                     TabbarItem(currentTab: item, xPosition: $xPosition, currentSelectedTab: $selectedTab, tabbarCurvePosition: $tabbarCurvePosition, iconSize: $iconSize, geoProxy: $geometryProxy, tabbarHeight: $tabbarHeight)
@@ -114,6 +111,4 @@ struct AnimatedBottomTabbar<Content: View>: View {
     }
 }
 
-#Preview {
-    ContentView()
-}
+
