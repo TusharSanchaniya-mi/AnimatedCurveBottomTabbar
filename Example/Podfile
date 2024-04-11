@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AnimatedCurveBottomTabbar_Tests' do
+  pod 'AnimatedCurveBottomTabbar', :path => '../'
+  
+  
+end

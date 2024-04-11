@@ -1,3 +1,11 @@
+#
+# Be sure to run `pod lib lint AnimatedCurveBottomTabbar.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
+
 Pod::Spec.new do |s|
   s.name             = 'AnimatedCurveBottomTabbar'
   s.version          = '1.0.0'
@@ -18,4 +26,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://github.com/TusharSanchaniya-mi'
 
   s.ios.deployment_target = '15.0'
+
+  s.source_files = 'AnimatedCurveBottomTabbar/Classes/**/*'
 end
