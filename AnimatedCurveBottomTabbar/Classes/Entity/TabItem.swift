@@ -21,4 +21,12 @@ public struct TabItem {
     /// - Parameters:
     ///   - unSelectedTabIconColor: Use to indicate and highlight unselected tab with tint color
     public var unSelectedTabIconColor: Color = Color.colorWithHexString(hexString: "#A481D7")
+
+    public init(id: Int, tabIcon: String, deSelectedTabIcon: String, selectedTabIconColor: Color, unSelectedTabIconColor: Color) {
+        self.id = id
+        self.tabIcon = tabIcon
+        self.deSelectedTabIcon = deSelectedTabIcon
+        self.selectedTabIconColor = selectedTabIconColor
+        self.unSelectedTabIconColor = unSelectedTabIconColor
+    }
 }
