@@ -1,17 +1,15 @@
 Pod::Spec.new do |s|
   s.name             = 'AnimatedCurveBottomTabbar'
   s.version          = '1.0.0'
-  s.summary          = 'This Library provides a view to render bottom tab with curve view'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'A customizable SwiftUI bottom tab bar component with smooth animations, 
+                        offering a modern and interactive navigation experience for your SwiftUI applications.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+                        The AnimatedCurveBottom Tab is a customizable SwiftUI component that provides a sleek and 
+                        modern bottom tab bar interface with smooth animation. This component is designed to enhance 
+                        the user experience by offering a visually appealing way to navigate between 
+                        different sections or views within your SwiftUI application
+                      DESC
 
   s.homepage         = 'https://github.com/TusharSanchaniya-mi/AnimatedCurveBottomTabbar'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -20,6 +18,4 @@ TODO: Add long description of the pod here.
   s.social_media_url = 'https://github.com/TusharSanchaniya-mi'
 
   s.ios.deployment_target = '15.0'
-
-  # s.source_files = 'AnimatedBottomTab/Classes/**/*'
 end

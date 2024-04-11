@@ -1,6 +1,6 @@
-# AnimatedCurveBottomTab
+# AnimatedCurveBottomTab Tab for SwiftUI
 
-AnimatedCurveBottomTabbar is a customizable and animated bottom tab bar for SwiftUI, providing a modern and sleek user interface for your iOS apps 😊.
+The AnimatedCurveBottom Tab is a customizable SwiftUI component that provides a sleek and modern bottom tab bar interface with smooth animation. This component is designed to enhance the user experience by offering a visually appealing way to navigate between different sections or views within your SwiftUI application 😊.
 
 [![CI Status](https://img.shields.io/badge/swift-5.0-brightgreen)](https://img.shields.io/badge/swift-5.0-brightgreen)
 [![Platform iOS](https://img.shields.io/badge/platform-iOS-red)](https://img.shields.io/badge/platform-iOS-red)
@@ -9,22 +9,11 @@ AnimatedCurveBottomTabbar is a customizable and animated bottom tab bar for Swif
 <a href="https://github.com/TusharSanchaniya-mi/AnimatedCurveBottomTabbar/blob/main/LICENSE" style="pointer-events: stroke;" target="_blank">
 <img src="https://img.shields.io/badge/licence-MIT-orange">
 
-## Features
-
-- Smooth animations
-- Customizable tab items
-- Easy to integrate with SwiftUI
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-`pod 'AnimatedCurveBottomTabbar', :git => 'https://github.com/TusharSanchaniya-mi/AnimatedCurveBottomTabbar.git', :tag => '1.0.0'`
-
 ## Requirements 🧐
 
 - iOS 15.0+
 - Swift 5.3+
+- SwiftUI
 
 ## Installation
 
@@ -35,6 +24,16 @@ You can install AnimatedCurveBottomTabbar via CocoaPods by adding the following 
 ```ruby
 pod 'AnimatedCurveBottomTab'
 ```
+
+## Key Features:
+
+Smooth Animation: The tab bar features smooth animation transitions between different tabs, providing a seamless user experience.
+
+Customizable: Easily customize the appearance of the tab bar to match your app's branding and design aesthetic. Customize colors, icons, and tab bar item text to suit your needs.
+
+Interactive: Users can tap on tab bar items to switch between different views quickly. The interactive nature of the component enhances usability and navigation within your app.
+
+Responsive: The AnimatedCurveBottom Tab is designed to be responsive and adapt to different screen sizes and orientations, ensuring consistent behavior across various devices.
 
 ## Example
 
