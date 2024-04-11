@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "AnimatedCurveBottomTabbar",
+    platforms: [.iOS(.v15)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -19,5 +20,6 @@ let package = Package(
         .testTarget(
             name: "AnimatedCurveBottomTabbarTests",
             dependencies: ["AnimatedCurveBottomTabbar"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
