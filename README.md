@@ -11,14 +11,25 @@ The AnimatedCurveBottom Tab is a customizable SwiftUI component that provides a 
 ## Requirements 🛠️
 
 - iOS 15.0+
-- Swift 5.3+
+- Swift 5.8+
 - SwiftUI
 
 ## Installation ⚙️
 
+## Swift Package Manager
+The [Swift Package Manager](https://www.swift.org/documentation/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the swift compiler.
+
+Once you have your Swift package set up, adding AnimatedCurveBottomTabbar as a dependency is as easy as adding it to the dependencies value of your Package.swift or the Package list in Xcode.
+
+```
+dependencies: [
+    .package(url: "https://github.com/TusharSanchaniya-mi/AnimatedCurveBottomTabbar", .upToNextMajor(from: "1.0.9"))
+]
+```
+
 ## CocoaPods
 
-You can install AnimatedCurveBottomTabbar via CocoaPods by adding the following line to your Podfile:
+[CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate AnimatedCurveBottomTabbar into your Xcode project using CocoaPods, specify it in your Podfile:
 
 ```ruby
 pod 'AnimatedCurveBottomTabbar'
