@@ -1,14 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'AnimatedCurveBottomTabbar'
   s.version          = '1.0.1'
-  s.summary          = 'A customizable SwiftUI bottom tab bar component with smooth animations, 
-                        offering a modern and interactive navigation experience for your SwiftUI applications.'
+  s.summary          = 'Customizable SwiftUI tab bar with smooth animations for modern, interactive navigation in your apps.'
 
   s.description      = <<-DESC
-                        The AnimatedCurveBottom Tab is a customizable SwiftUI component that provides a sleek and 
-                        modern bottom tab bar interface with smooth animation. This component is designed to enhance 
-                        the user experience by offering a visually appealing way to navigate between 
-                        different sections or views within your SwiftUI application
+                        AnimatedCurveBottomTabbar is a sleek, customizable SwiftUI tab bar with smooth animations for enhanced navigation.
                       DESC
 
   s.homepage         = 'https://github.com/TusharSanchaniya-mi/AnimatedCurveBottomTabbar'
@@ -18,6 +14,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://github.com/TusharSanchaniya-mi'
 
   s.ios.deployment_target = '15.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'AnimatedCurveBottomTabbar/Classes/**/*'
 end
