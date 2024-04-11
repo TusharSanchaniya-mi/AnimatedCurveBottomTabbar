@@ -1,13 +1,34 @@
 import SwiftUI
 
 struct TabbarItem: View {
-    
+
+    /// - Parameters:
+    ///   - currentTab: Indicates current active tab and can set pre selected tab as well.
     @Binding var currentTab: TabItem
+    
+    /// - Parameters:
+    ///   - xPosition: Shows the curve position view on selcted tab,
     @Binding var xPosition: CGFloat
+    
+    /// - Parameters:
+    ///   - currentSelectedTab: Indicates current active tab and can set pre selected tab as well.
     @Binding var currentSelectedTab: TabItem
+    
+    /// - Parameters:
+    ///   - tabbarCurvePosition: User can set curve position either on Top or Bottom.
+    ///   - Values: `top` & `bottom`,
+    ///   - Default: `bottom`
     @Binding var tabbarCurvePosition: TabbarCurvePosition
+    
+    /// - Parameters:
+    ///   - iconSize: Providing size of tabbar icons.
     @Binding var iconSize: CGSize
+    
     @Binding var geoProxy: GeometryProxy?
+    
+    /// - Parameters:
+    ///   - tabbarHeight: Indicates a height of the bottom tab
+    ///   - MinimumSize: `35`.
     @Binding var tabbarHeight: CGFloat
     
     var body: some View {

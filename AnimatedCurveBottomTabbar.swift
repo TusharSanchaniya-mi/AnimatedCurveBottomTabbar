@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct AnimatedBottomTabbar<Content: View>: View {
+struct AnimatedCurveBottomTabbar<Content: View>: View {
     
     /// - Usage:
     /// Allow to make default selection based on requirements
@@ -26,9 +26,9 @@ struct AnimatedBottomTabbar<Content: View>: View {
     
     /// - Parameters:
     ///   - width: A fixed width for the resulting view. If `width` is `nil`,
-    ///     deafult frame size will ne applied
+    ///     Default frame size will ne applied
     ///   - height: A fixed height for the resulting view. If `height` is `nil`,
-    ///     deafult frame size will ne applied
+    ///     Default frame size will ne applied
     @State var iconSize: CGSize
     
     /// ![Tabbar position either in bottom or on top curve notch)

@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'AnimatedBottomTab'
+  s.name             = 'AnimatedCurveBottomTabbar'
   s.version          = '1.0.0'
   s.summary          = 'This Library provides a view to render bottom tab with curve view'
 
@@ -13,13 +13,13 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/82019401/AnimatedBottomTab'
+  s.homepage         = 'https://github.com/TusharSanchaniya-mi/AnimatedCurveBottomTabbar'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tushar Sanchaniya' => 'tushar.sanchaniya@mindinventory.com' }
-  s.source           = { :git => 'https://github.com/TusharSanchaniya-mi/AnimatedBottomTabbar.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://github.com/TusharSanchaniya-mi'
+  s.source           = { :git => 'https://github.com/TusharSanchaniya-mi/AnimatedCurveBottomTabbar.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://github.com/TusharSanchaniya-mi'
 
   s.ios.deployment_target = '15.0'
 
-  s.source_files = 'AnimatedBottomTab/Classes/**/*'
+  # s.source_files = 'AnimatedBottomTab/Classes/**/*'
 end

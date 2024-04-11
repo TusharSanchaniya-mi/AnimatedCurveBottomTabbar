@@ -11,8 +11,13 @@ struct TabbarConstants {
     let iconSize: CGSize = CGSize(width: 30, height: 30)
 }
 
-public enum TabbarCurvePosition {
+@frozen public enum TabbarCurvePosition {
+    
+    /// The bottom of the edge.
     case bottom
+    
+    /// - Parameters:
+    /// The top of the edge.
     case top
 }
 

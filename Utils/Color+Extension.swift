@@ -4,7 +4,7 @@ import SwiftUI
 
 extension Color {
     
-    static func colorWithHexString(hexString: String, withAlpha: CGFloat = 1) -> Color {
+    public static func colorWithHexString(hexString: String, withAlpha: CGFloat = 1) -> Color {
         var colorString = hexString.trimmingCharacters(in: .whitespacesAndNewlines)
         colorString = colorString.replacingOccurrences(of: "#", with: "").uppercased()
         
