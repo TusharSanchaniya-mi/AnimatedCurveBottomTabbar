@@ -21,7 +21,7 @@ The AnimatedCurveBottom Tab is a customizable SwiftUI component that provides a 
 You can install AnimatedCurveBottomTabbar via CocoaPods by adding the following line to your Podfile:
 
 ```ruby
-pod 'AnimatedCurveBottomTab'
+pod 'AnimatedCurveBottomTabbar'
 ```
 
 ## Key Features: ✨
