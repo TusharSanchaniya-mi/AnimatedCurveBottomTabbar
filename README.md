@@ -1,4 +1,4 @@
-# AnimatedCurveBottomTab Tab for SwiftUI
+# AnimatedCurveBottomTabbar for SwiftUI
 
 The AnimatedCurveBottom Tab is a customizable SwiftUI component that provides a sleek and modern bottom tab bar interface with smooth animation. This component is designed to enhance the user experience by offering a visually appealing way to navigate between different sections or views within your SwiftUI application 😊.
 
@@ -108,7 +108,7 @@ struct ContainerView: View {
 
 ## 📄 License
 
-AnimatedCurveBottomTab is [MIT-licensed](/LICENSE).
+AnimatedCurveBottomTabbar is [MIT-licensed](/LICENSE).
 
 If you use our open-source libraries in your project, please make sure to credit us and Give a star to www.mindinventory.com
 
