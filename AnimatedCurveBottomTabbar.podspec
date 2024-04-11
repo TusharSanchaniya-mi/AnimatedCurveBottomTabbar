@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AnimatedCurveBottomTabbar'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'Customizable SwiftUI tab bar with smooth animations for modern, interactive navigation in your apps.'
 
   s.description      = <<-DESC

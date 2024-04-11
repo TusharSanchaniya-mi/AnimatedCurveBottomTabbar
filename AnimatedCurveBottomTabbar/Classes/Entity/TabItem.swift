@@ -12,17 +12,17 @@ public struct TabItem {
     
     /// - Parameters:
     ///   - deSelectedTabIcon: With this you can get an image to show deselected tab
-    public var deSelectedTabIcon: String = ""
+    public var deSelectedTabIcon: String
     
     /// - Parameters:
     ///   - selectedTabIconColor: Use to indicate and highlight selected tab with tint color
-    public var selectedTabIconColor: Color = Color.colorWithHexString(hexString: "#FFFFFF")
+    public var selectedTabIconColor: Color
     
     /// - Parameters:
     ///   - unSelectedTabIconColor: Use to indicate and highlight unselected tab with tint color
-    public var unSelectedTabIconColor: Color = Color.colorWithHexString(hexString: "#A481D7")
+    public var unSelectedTabIconColor: Color
 
-    public init(id: Int, tabIcon: String, deSelectedTabIcon: String, selectedTabIconColor: Color, unSelectedTabIconColor: Color) {
+    public init(id: Int, tabIcon: String, deSelectedTabIcon: String = "", selectedTabIconColor: Color = Color.colorWithHexString(hexString: "#FFFFFF"), unSelectedTabIconColor: Color = Color.colorWithHexString(hexString: "#A481D7")) {
         self.id = id
         self.tabIcon = tabIcon
         self.deSelectedTabIcon = deSelectedTabIcon
