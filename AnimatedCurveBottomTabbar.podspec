@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AnimatedCurveBottomTabbar'
-  s.version          = '1.0.9'
+  s.version          = '1.0.10'
   s.summary          = 'Customizable SwiftUI tab bar with smooth animations for modern, interactive navigation in your apps.'
 
   s.description      = <<-DESC
@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.author           = { 'Tushar Sanchaniya' => 'tushar.sanchaniya@mindinventory.com' }
   s.source           = { :git => 'https://github.com/TusharSanchaniya-mi/AnimatedCurveBottomTabbar.git', :tag => s.version.to_s }
   s.social_media_url = 'https://github.com/TusharSanchaniya-mi'
-
+  s.readme           = 'https://github.com/TusharSanchaniya-mi/AnimatedCurveBottomTabbar/blob/main/README.md'
   s.ios.deployment_target = '15.0'
   s.swift_version = '5.0'
-  s.source_files = 'AnimatedCurveBottomTabbar/Classes/**/*'
+  s.source_files = 'AnimatedCurveBottomTabbar/Classes/**/*', 'AnimatedCurveBottomTabbar/README.md'
 end
