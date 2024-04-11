@@ -1,14 +1,6 @@
-#
-# Be sure to run `pod lib lint AnimatedCurveBottomTabbar.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'AnimatedCurveBottomTabbar'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A customizable SwiftUI bottom tab bar component with smooth animations, 
                         offering a modern and interactive navigation experience for your SwiftUI applications.'
 
