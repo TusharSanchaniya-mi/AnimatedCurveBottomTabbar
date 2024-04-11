@@ -1,10 +1,10 @@
 import SwiftUI
 
-struct AnimatedCurveBottomTabbar<Content: View>: View {
+public struct AnimatedCurveBottomTabbar<Content: View>: View {
     
     /// - Usage:
     /// Allow to make default selection based on requirements
-    @Binding var selectedTab: TabItem
+    @Binding public var selectedTab: TabItem
     
     /// - Parameters:
     ///   - id: A uniq value to Identify with selection.
@@ -12,31 +12,31 @@ struct AnimatedCurveBottomTabbar<Content: View>: View {
     ///   - deSelectedTabIcon: An icon which shows up after deselection in bottom tab bar.
     ///   - selectedTabIconColor: Give a tint color to the icons when its selected..
     ///   - unSelectedTabIconColor: Give a tint color to the icons when its not selected..
-    @Binding var items: [TabItem]
+    @Binding public var items: [TabItem]
     
-    @State var tabbarHeight: CGFloat
+    @State public var tabbarHeight: CGFloat
     
     /// - Parameters:
     ///   - circleBGColor: Color to give dot background color.
-    @State var circleBGColor: Color
+    @State public var circleBGColor: Color
     
     /// - Parameters:
     ///   - tabBGColor: Color  to give tabbar background color.
-    @State var tabBGColor: Color
+    @State public var tabBGColor: Color
     
     /// - Parameters:
     ///   - width: A fixed width for the resulting view. If `width` is `nil`,
     ///     Default frame size will ne applied
     ///   - height: A fixed height for the resulting view. If `height` is `nil`,
     ///     Default frame size will ne applied
-    @State var iconSize: CGSize
+    @State public var iconSize: CGSize
     
     /// ![Tabbar position either in bottom or on top curve notch)
     ///
     /// - Parameters:
     ///   - top: The curve view draws on top edges of tabbar. `Default`
     ///   - bottom: The curve view draws on bottom edges of tabbar.
-    @State var tabbarCurvePosition: TabbarCurvePosition
+    @State public var tabbarCurvePosition: TabbarCurvePosition
     
     @State fileprivate var xPosition: CGFloat = 15.0
     @State fileprivate var geometryProxy: GeometryProxy? = nil
@@ -45,13 +45,13 @@ struct AnimatedCurveBottomTabbar<Content: View>: View {
     
     var selectedTabView: AnyView
     
-    init(selectedTab: Binding<TabItem>,
+    public init(selectedTab: Binding<TabItem>,
          items: Binding<[TabItem]>,
          tabbarCurvePosition: TabbarCurvePosition = TabbarCurvePosition.bottom,
-         iconSize: CGSize = TabbarConstants.shared.iconSize,
+         iconSize: CGSize = CGSize(width: 30, height: 30),
          tabbarHeight: CGFloat = 35.0,
-         circleBGColor: Color = Color.colorWithHexString(hexString: TabbarConstants.shared.circleColor),
-         tabBGColor: Color = Color.colorWithHexString(hexString: TabbarConstants.shared.backgroundColor),
+         circleBGColor: Color = Color.colorWithHexString(hexString: "#A481D7"),
+         tabBGColor: Color = Color.colorWithHexString(hexString: "#7329DF"),
          @ViewBuilder selectedViewCompletion: () -> Content) {
         
         self._selectedTab = selectedTab
@@ -65,7 +65,7 @@ struct AnimatedCurveBottomTabbar<Content: View>: View {
         self.selectedTabView = AnyView(selectedViewCompletion())
     }
     
-    var body: some View {
+    public var body: some View {
         VStack {
             ScrollView(showsIndicators: false) {
                 selectedTabView
