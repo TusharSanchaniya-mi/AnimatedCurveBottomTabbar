@@ -81,6 +81,13 @@ struct ContainerView: View {
 
 ```
 
+
+
+https://github.com/TusharSanchaniya-mi/AnimatedCurveBottomTabbar/assets/82019401/b52b5c11-e4e5-4144-b1e1-022aea9052b8
+
+
+
+
 ## 🙋 Author
 
 ## [MindInventory](https://www.mindinventory.com/)
