@@ -50,7 +50,7 @@ Responsive: The AnimatedCurveBottom Tab is designed to be responsive and adapt t
 ```swift
 struct ContainerView: View {
 
-    @State var deafultTab: TabItem = TabItem(id: 0, tabIcon: "icHome")
+    @State var selectedTab: TabItem = TabItem(id: 0, tabIcon: "icHome")
 
     @State var arrBottomTabs: [TabItem] = [
         TabItem(id: 0, tabIcon: "icHomeSelected"),
@@ -61,7 +61,7 @@ struct ContainerView: View {
 
     var body: some View {
         ZStack {
-            AnimatedCurveBottomTabbar(selectedTab: $deafultTab, items: $arrBottomTabs, tabbarCurvePosition: .top, selectedViewCompletion: {
+            AnimatedCurveBottomTabbar(selectedTab: $selectedTab, items: $arrBottomTabs, tabbarCurvePosition: .top, selectedViewCompletion: {
                 switch selectedTab.id {
                 case 0:
                     HomeTab()
